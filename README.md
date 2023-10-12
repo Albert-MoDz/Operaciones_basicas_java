@@ -1,7 +1,7 @@
 # Operaciones_basicas_java
 Operaciones básicas en java con menú de opciones
 
-- creamos una comunacion remota para guiarnos en el proyecto.
+- creamos una comunicación remota para guiarnos en el proyecto.
 - utilizamos un repositio de manaera compartida.
 - con las herramientas de code with me de intellij ultimate edition 
 
