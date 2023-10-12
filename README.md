@@ -5,7 +5,7 @@ Operaciones básicas en java con menú de opciones
 - utilizamos un repositio de manaera compartida.
 - con las herramientas de code with me de intellij ultimate edition 
 
-1-) se crearon las clases de las operaciones basicas .java
+se crearon las clases de las operaciones basicas .java
 clases:
 
 1- sumar.java
