@@ -19,5 +19,7 @@ clases:
    
    utlizamos un do while para la creacion del menu de opciones para que el usuario elija su opcion.
 
+se usan funciones para las diferentes operaciones aritmeticas 
+y eso lo llamamos en el main mas adelante
 
 
