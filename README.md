@@ -23,3 +23,43 @@ se usan funciones para las diferentes operaciones aritmeticas
 y eso lo llamamos en el main mas adelante
 
 
+
+COMANDOS DE XAMPP
+
+utilizar mysql por consola si usas xampp en gnu/linux
+Carlos Alberto
+canred
+si usas xampp en gnu/linux para poder usar el servicio de la base de datos por consola usa el siguientes comandos
+
+iniciar la base de datos
+
+sudo /opt/lampp/lampp startmysql
+
+abrir la consola de mysql
+
+
+/opt/lampp/bin/mysql -u root
+
+
+pero considero que estos comandos son poco intuitivos a si que vamos creer varios alias
+
+
+alias mysql="/opt/lampp/bin/mysql -u root"
+alias mysqlstart="sudo /opt/lampp/lampp startmysql"
+alias mysqlstop="sudo /opt/lampp/lampp stopmysql"
+
+
+ya solo con mysql, mysqlstart y mysqlstop podrás acceder al los diferentes comandos, 
+pero sorpresa reiniciaste tu equipo y dejaron de funcionar, 
+para que esto no suceda hacemos esto abrimos el archivo .
+bashrc ubicado en la carpeta home con tu editor de textos preferido y al final escribiremos la definición de los alias
+
+alias mysql="/opt/lampp/bin/mysql -u root"
+alias mysqlstart="sudo /opt/lampp/lampp startmysql"
+alias mysqlstop="sudo /opt/lampp/lampp stopmysql"
+
+y por ultimo ubicados en home escribimos
+
+source .bashrc
+
+
